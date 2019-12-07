@@ -48,7 +48,6 @@ create_commendation(part_of_name, subject__title)
 Сообщения об ошибках аналогичны сообщениям функции get_schoolkid
 ### Примеры
 ### Поиск ученика
-Функция
 ```
 >>>schoolkid = scripts.get_schoolkid('Баранова Евфросиния')
 Найден ученик  Баранова Евфросиния Эльдаровна 6А
@@ -66,13 +65,11 @@ create_commendation(part_of_name, subject__title)
 ```
 
 ### Удаление замечаний
-Функция
 ```
 >>>schoolkid = scripts.get_schoolkid("Баранова Евфросиния")
 >>>remove_chastisements(schoolkid)
 ```
 ### Добавление похвалы
-Функция
 ```
 >>>create_commendation("Баранова Евфросиния", "Музыка")
 ```
