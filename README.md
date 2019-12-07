@@ -61,18 +61,18 @@ create_commendation(part_of_name, subject__title)
 ```
 ### Замена плохих оценок.
 ```
-schoolkid = scripts.get_schoolkid("Баранова Евфросиния")
-scripts.fix_marks(schoolkid)
+>>>schoolkid = scripts.get_schoolkid("Баранова Евфросиния")
+>>>scripts.fix_marks(schoolkid)
 ```
 
 ### Удаление замечаний
 Функция
 ```
-schoolkid = scripts.get_schoolkid("Баранова Евфросиния")
-remove_chastisements(schoolkid)
+>>>schoolkid = scripts.get_schoolkid("Баранова Евфросиния")
+>>>remove_chastisements(schoolkid)
 ```
 ### Добавление похвалы
 Функция
 ```
-create_commendation("Баранова Евфросиния", "Музыка")
+>>>create_commendation("Баранова Евфросиния", "Музыка")
 ```
