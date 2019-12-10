@@ -49,27 +49,27 @@ create_commendation(part_of_name, subject__title)
 ### Примеры
 ### Поиск ученика
 ```
->>>schoolkid = scripts.get_schoolkid('Баранова Евфросиния')
+>>> schoolkid = scripts.get_schoolkid('Баранова Евфросиния')
 Найден ученик  Баранова Евфросиния Эльдаровна 6А
 
->>>schoolkid = scripts.get_schoolkid("Евсеев Евгений") 
+>>> schoolkid = scripts.get_schoolkid("Евсеев Евгений") 
 Ошибка. Не найден ученик:  Евсеев Евгений
 
->>>schoolkid = scripts.get_schoolkid("Петров")         
+>>> schoolkid = scripts.get_schoolkid("Петров")         
 Ошибка. Найдено несколько учеников:  Петров
 ```
 ### Замена плохих оценок.
 ```
->>>schoolkid = scripts.get_schoolkid("Баранова Евфросиния")
->>>scripts.fix_marks(schoolkid)
+>>> schoolkid = scripts.get_schoolkid("Баранова Евфросиния")
+>>> scripts.fix_marks(schoolkid)
 ```
 
 ### Удаление замечаний
 ```
->>>schoolkid = scripts.get_schoolkid("Баранова Евфросиния")
->>>remove_chastisements(schoolkid)
+>>> schoolkid = scripts.get_schoolkid("Баранова Евфросиния")
+>>> remove_chastisements(schoolkid)
 ```
 ### Добавление похвалы
 ```
->>>create_commendation("Баранова Евфросиния", "Музыка")
+>>> create_commendation("Баранова Евфросиния", "Музыка")
 ```
